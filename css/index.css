@@ -1,0 +1,66 @@
+/* General Settings */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: FranklinGothic;
+    src: url(../fonts/FranklinGothic.ttf);
+} 
+
+.page-box {
+    width: 1000px;
+    height: 666px;
+    font-family: FranklinGothic;
+    background-image: url(../img/bg-image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* HEADER - Navigation Menu */
+.navigation-box {
+    padding: 65px 0 0 55px;
+}
+
+.navigation-link {
+    opacity: 0.5;
+    font-size: 15px;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.navigation-link:last-child {
+    margin-right: 0;
+}
+
+/* CONTENT - Text Box */
+.text-box {
+    width: 467px;
+    height: 230px;
+    margin: 71px 0 0 96px;
+}
+
+.style {                                            /* For Header links, Content h1 and text, Footer text*/
+    color: #fff;
+    text-shadow: 0 0 4px rgba(0, 0, 0, 0.65);
+    font-weight: 400;
+}
+
+.title-h1 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.text {
+    font-size: 13px;
+    line-height: 15.6px;
+}
+
+/* Footer */
+.footer {
+    margin: 198px 0 50px 54px;
+    font-size: 12px;
+    opacity: 0.27;
+}
