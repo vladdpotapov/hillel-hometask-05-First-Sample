@@ -11,9 +11,10 @@
 } 
 
 body {
-    background-image: url(../img/bg-image.png);
-    background-size: cover;
+    background-image: url(../img/image.png);
+    background-position: right top;
     background-repeat: no-repeat;
+    background-color: #08151e;
 }
 
 .page-box {
