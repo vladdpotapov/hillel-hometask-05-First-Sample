@@ -16,6 +16,11 @@ body {
     background-repeat: no-repeat;
 }
 
+.page-box {
+    display: flex;
+    flex-direction: column;
+}
+
 /* HEADER - Navigation Menu */
 .navigation-box {
     padding: 65px 0 0 55px;
@@ -35,7 +40,7 @@ body {
 /* CONTENT - Text Box */
 .text-box {
     width: 467px;
-    height: 230px;
+    height: 60vh;
     margin: 71px 0 0 96px;
 }
 
